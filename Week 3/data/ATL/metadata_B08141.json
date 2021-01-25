@@ -1,0 +1,156 @@
+{
+    "release": {
+        "id": "acs2019_5yr",
+        "name": "ACS 2019 5-year",
+        "years": "2015-2019"
+    },
+    "tables": {
+        "B08141": {
+            "columns": {
+                "B08141001": {
+                    "indent": 0,
+                    "name": "Total:"
+                },
+                "B08141002": {
+                    "indent": 1,
+                    "name": "No vehicle available"
+                },
+                "B08141003": {
+                    "indent": 1,
+                    "name": "1 vehicle available"
+                },
+                "B08141004": {
+                    "indent": 1,
+                    "name": "2 vehicles available"
+                },
+                "B08141005": {
+                    "indent": 1,
+                    "name": "3 or more vehicles available"
+                },
+                "B08141006": {
+                    "indent": 1,
+                    "name": "Car, truck, or van - drove alone:"
+                },
+                "B08141007": {
+                    "indent": 2,
+                    "name": "No vehicle available"
+                },
+                "B08141008": {
+                    "indent": 2,
+                    "name": "1 vehicle available"
+                },
+                "B08141009": {
+                    "indent": 2,
+                    "name": "2 vehicles available"
+                },
+                "B08141010": {
+                    "indent": 2,
+                    "name": "3 or more vehicles available"
+                },
+                "B08141011": {
+                    "indent": 1,
+                    "name": "Car, truck, or van - carpooled:"
+                },
+                "B08141012": {
+                    "indent": 2,
+                    "name": "No vehicle available"
+                },
+                "B08141013": {
+                    "indent": 2,
+                    "name": "1 vehicle available"
+                },
+                "B08141014": {
+                    "indent": 2,
+                    "name": "2 vehicles available"
+                },
+                "B08141015": {
+                    "indent": 2,
+                    "name": "3 or more vehicles available"
+                },
+                "B08141016": {
+                    "indent": 1,
+                    "name": "Public transportation (excluding taxicab):"
+                },
+                "B08141017": {
+                    "indent": 2,
+                    "name": "No vehicle available"
+                },
+                "B08141018": {
+                    "indent": 2,
+                    "name": "1 vehicle available"
+                },
+                "B08141019": {
+                    "indent": 2,
+                    "name": "2 vehicles available"
+                },
+                "B08141020": {
+                    "indent": 2,
+                    "name": "3 or more vehicles available"
+                },
+                "B08141021": {
+                    "indent": 1,
+                    "name": "Walked:"
+                },
+                "B08141022": {
+                    "indent": 2,
+                    "name": "No vehicle available"
+                },
+                "B08141023": {
+                    "indent": 2,
+                    "name": "1 vehicle available"
+                },
+                "B08141024": {
+                    "indent": 2,
+                    "name": "2 vehicles available"
+                },
+                "B08141025": {
+                    "indent": 2,
+                    "name": "3 or more vehicles available"
+                },
+                "B08141026": {
+                    "indent": 1,
+                    "name": "Taxicab, motorcycle, bicycle, or other means:"
+                },
+                "B08141027": {
+                    "indent": 2,
+                    "name": "No vehicle available"
+                },
+                "B08141028": {
+                    "indent": 2,
+                    "name": "1 vehicle available"
+                },
+                "B08141029": {
+                    "indent": 2,
+                    "name": "2 vehicles available"
+                },
+                "B08141030": {
+                    "indent": 2,
+                    "name": "3 or more vehicles available"
+                },
+                "B08141031": {
+                    "indent": 1,
+                    "name": "Worked from home:"
+                },
+                "B08141032": {
+                    "indent": 2,
+                    "name": "No vehicle available"
+                },
+                "B08141033": {
+                    "indent": 2,
+                    "name": "1 vehicle available"
+                },
+                "B08141034": {
+                    "indent": 2,
+                    "name": "2 vehicles available"
+                },
+                "B08141035": {
+                    "indent": 2,
+                    "name": "3 or more vehicles available"
+                }
+            },
+            "denominator_column_id": "B08141001",
+            "title": "Means of Transportation to Work by Vehicles Available",
+            "universe": "Workers 16 Years and Over in Households"
+        }
+    }
+}
