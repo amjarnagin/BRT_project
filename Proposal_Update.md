@@ -1,0 +1,23 @@
+# ***Updated Feb. 7 2021***
+# UP 206A Project Proposal - Aziz Fellague and Andrew Jarnagin (Winter 2021)
+## Analyzing Bus Rapid Transit Service Corridors in Los Angeles and Atlanta
+### Research Question
+We plan to study existing and proposed Bus Rapid Transit (BRT) routes in Los Angeles and Atlanta. Within temporal walksheds of stops along the route, we will calculate residential density and the demographics of residents. We will use this information to evaluate the feasibility of these routes compared to recommended densities for BRT service and the extent to which these routes serve disadvantaged communities.
+
+### Project Detail
+BRT offers improved speed and reliability over traditional bus service at a significantly lower capital cost and shorter construction timeline than rail. As governments from the federal to local level seek to reduce pollution from automobile use and address urban traffic congestion, transit agencies across the U.S. are turning to BRT as a quickly deployable and cost-efficient method to improve public transit service and reverse declining ridership nationwide. Transit agencies often neglect bus riders, and implementing BRT is one way to redress this imbalance of investment. BRT also offers a “premium” transit service in areas not considered sufficiently dense for rail, with comparable frequency and riding experience despite lower overall speeds.
+
+Los Angeles and Atlanta share many characteristics from urban form to transportation culture: both cities are overwhelmingly car-centric, have relatively low density for urban areas, experience severe traffic congestion, and are making ballot-supported investments to improve and expand public transit service. We will be looking at existing and proposed BRT lines in Los Angeles and Atlanta and compare accessibility to the stations. BRT in the United States is a relatively new concept and to examine the effectiveness of BRT, we would like to examine how easy it is to get to the BRT stations in walking distance. We will be using an isochrome walkshed generated with the OSMnx package for the most accurate representation of walking distance. 
+
+Bus Rapid Transit can be an effective tool in promoting economic and environmental justice and eliminating poverty. By looking at the walking distance to each BRT station along with Census data showing race, income, and density, we can see whether LA Metro effectively serves its riders (who are predominantly Black and Latinx) through BRT. Looking at proposed BRT lines for MARTA, we will be performing a similar analysis. Time-permitting, we hope to compare our analysis of communities served by these BRT routes with measures of disadvantage, such as California's SB 535 Disadvantaged Communities designation. This designation represents the top 25% highest scoring Census tracts in CalEnviroScreen 3.0.
+
+We plan to produce a map(s) that represents all facets of the data underlying our analysis - BRT routes, isochrone walksheds, relevant Census tract information (ex. race/ethnicity, car ownership, percent foreign born, population density), and potentially categories of disadvantage with spatial features, such as the SB 535 designation. A successful visualization will clearly presents both our density and demographic analysis for BRT routes in a way that allows readers to compare characterisitcs between routes. For proposed BRT routes, we can measure density along the route to make initial predictions about whether the density is likely to support ridership goals. For all BRT routes studied, we should be able to draw conclusions about the neighborhoods served and whether these match with the stated priorities of transit agencies and government bodies.
+
+
+### Data Sources
+* LA Metro Bus Lines (RapidBRT1219) -  https://developer.metro.net/docs/gis-data/overview/ 
+* LA Metro Stations (Bus Stops 1219) - https://developer.metro.net/docs/gis-data/overview/ 
+* Proposed MARTA BRT routes in Atlanta - https://itsmarta.com/uploadedFiles/MoreMARTAAtlantaMap06192019.pdf (Routes I, J, and K) + https://saportareport.com/martas-brt-plans-advance-along-summerhill-route-in-downtown-atlanta/ (Capitol Ave BRT stops)
+* For proposed routes not included in transit agency data, we will use geojson.io to generate shapefiles of the routes - http://geojson.io/ 
+* Census tract-level data for Clayton, Dekalb, and Fulton Counties (MARTA) and Los Angeles County (LA Metro) from Census Reporter, and residential density data from Social Explorer
+* For Los Angeles, SB 535 Disadvantaged Communities (time permitting) - https://oehha.ca.gov/calenviroscreen/sb535
